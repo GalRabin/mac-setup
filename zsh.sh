@@ -5,6 +5,8 @@
 
 brew install zsh
 chsh -s /usr/local/bin/zsh
+rm -rf ~/.oh-my-zsh
+rm -rf ~/.zshrc
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #########################
